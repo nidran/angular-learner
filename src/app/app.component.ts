@@ -6,5 +6,6 @@ import { Component, VERSION } from '@angular/core';
   styleUrls: [ './app.component.css' ]
 })
 export class AppComponent  {
+  title = 'Tour of Heroes';
   name = 'Angular ' + VERSION.major;
 }
